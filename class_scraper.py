@@ -17,7 +17,10 @@ class Scraper:
         return scraped_item
 
 
-plzsub = Scraper()
-prod = plzsub.extract('B08WX6ZDTY')
-print(prod)
+
+# testing
+if __name__ == '__main__':
+    plzsub = Scraper()
+    prod = plzsub.extract('B08WX6ZDTY')
+    print(prod)
 
